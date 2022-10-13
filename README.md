@@ -22,7 +22,6 @@
 ## div/classes/css tags I used to extract information:
 **1. hit_news.py**
 - titles = soup.find_all('a',class_='entry-title-link')
-- class_='entry-title-link')
 - authors = soup.find_all('span', class_='entry-author-name')
 - dates = soup.find_all('time', class_='entry-time')
 - descriptions = soup.find_all('div', class_='entry-content')
